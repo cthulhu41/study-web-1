@@ -1,0 +1,178 @@
+@import url('https://fonts.googleapis.com/css2?family=Poetsen+One&display=swap');
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-family: "Poetsen One", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+    background-image: url(https://i.pinimg.com/564x/41/c0/1d/41c01ddf964fd7c6b5088f509286e074.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    backdrop-filter: blur(5px);
+}
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.menu  {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+.menu  ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    margin: 4vh;
+}
+
+.menu ul li{
+    margin: 0 10vh 0 10vh;
+}
+
+.menu  ul li a{
+    font-size: 3vh;
+    color: aliceblue;
+    text-decoration: none;
+}
+
+.menu  ul li a:hover {
+    color: rgb(171, 175, 180);
+}
+
+.home {
+    margin: 3.5vh;
+}
+
+.bxs-home {
+    color: aliceblue;
+    font-size: 4vh;
+}
+
+.bxs-home:hover {
+    color: rgb(171, 175, 180);
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+}
+
+.txt_img_content {
+    background-color: #021b1fa2;
+    margin: 4vh 0 2vh 0;
+    width: 100%;
+    display: flex;
+}
+
+.main_txt {
+    margin: auto 5vh auto 5vh;
+    padding: 5vh 0 5vh 0;
+    color: aliceblue;
+    font-size: 2vh;
+    text-align: center;
+}
+
+.txt_img_content img {
+    width: 40vh;
+    height: 50vh;
+    margin: auto 5vh auto 5vh;
+    padding: 5vh 0 5vh 0;
+}
+
+.form {
+    margin-top: 10vh;
+    margin-bottom: 5vh;  
+}
+
+.form form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.bxs-lock-open {
+    color: aliceblue;
+}
+
+.bxs-user {
+    color: aliceblue;
+}
+
+.indata{
+    margin: 1vh 0 1vh 0;
+    border: 0.5vh solid linear-gradient(45deg, #b3514a96, #02162483);
+    background: linear-gradient(45deg, #b3514a96, #02162483);
+    backdrop-filter: blur(5px);
+    padding: 2vh;
+    border-radius: 20vh;
+}
+
+input {
+    font-family: "Poetsen One", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+    color: aliceblue;
+    border: 0 solid;
+    background: rgba(255, 255, 255, 0);
+    border-radius: 20vh;
+    text-align: center;
+    width: 35vh;
+    height: 3vh;
+}
+
+.indata:hover {
+    border: 0.5vh solid linear-gradient(45deg, #b3514ad2, #021624c2);
+    background: linear-gradient(45deg, #b3514ad2, #021624c2);
+}
+
+input:focus{
+    outline: 0;
+}
+
+button{
+    font-family: "Poetsen One", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+    color: aliceblue;
+    border: 0 solid;
+    background: linear-gradient(45deg, #b3514a96, #02162483);
+    border-radius: 20vh;
+    text-align: center;
+    width: 20vh;
+    height: 3vh;  
+}
+
+button:hover{
+    border: 0.5vh solid linear-gradient(45deg, #b3514ad2, #021624c2);
+    background: linear-gradient(45deg, #b3514ad2, #021624c2);
+}
+
+.bxs-envelope {
+    color: aliceblue;
+}
+
+.bxs-phone {
+    color: aliceblue;
+}
+
+.footer {
+    opacity: 0.6;
+    font-size: 1.3vh;
+    background-color: #0a1f2263;
+    color: aliceblue;
+    padding: 2vh 0 2vh 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
